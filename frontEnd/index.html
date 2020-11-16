@@ -16,7 +16,6 @@
         margin-top: 20px;
         width: 90vw;
         height: 90vh;
-        background-color: aqua;
         padding: 20px;
         display: flex;
         justify-content: space-evenly;
@@ -46,8 +45,10 @@
       <div class="d-flex justify-content-center">
         <h1 class="text-center">Pokemon REST practice</h1>
       </div>
+      <div id="pageNumber"></div>
       <div id="populate" class="displayList shadow p-3 mb-5 bg-white rounded"><h1 id="placeholder">Click get list to see your pokemons!</h1></div>
       <div id="myButton" class="myButton">
+        <button id="startOver" class="border border-dark" onclick="startOver()">Start over</button>
         <button id="getList" class="border border-dark" onclick="getList()">Get List</button>
       </div>
     </div>
